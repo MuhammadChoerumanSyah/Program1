@@ -1,9 +1,13 @@
-Tambah data • elif menu.lower() == 't': Ambil data 't' dari menu
+## Tambah data 
+• elif menu.lower() == 't': Ambil data 't' dari menu
     • nama = input("Masukkan nama: ") lalu tambahkan input nama, nim, nilai tugas, nilai uts, nilai uas 
     • nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100 untuk nilai akhir diambil dari perhitungan 3 komponen nilai(nilai_tugas:30%, nilai_uts:35%, nilai_uas:35%)
     • data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir] kita akan masukkan data yang tadi kita input ke dalam 'data[nama]' • lalu cetak print()
 
-Ubah data 
+Input:
+![Input](foto/inputtambah.png)
+
+## Ubah data 
  • elif menu.lower() == 'u': Ambil data 'u' dari menu
  • nama = input("Masukkan nama untuk mengubah data: ") kita akan menginput data yang nanti akan diubah 
  • if nama in data.keys(): print("Mau mengubah apa?") jika 'nama' dari didalam 'data' maka akan mengembalikan daftar menggunakan daftar menggunakan fungsi 'keys()' 
@@ -14,7 +18,12 @@ Ubah data
  • lalu cetak print("\Berhasil ubah data!") 
  • else:print("'{}' tidak ditemukan.".format(nama)) jika kita salah dalam memasukkan nama untuk mengubah data maka akan muncul 'nama tidak ditemukan'
 
- Hapus data 
+Input:
+![Input1](foto/inputubah.png)
+![Input2](foto/inputubah1.png)
+
+
+ ## Hapus data 
  • elif menu.lower() 'h': Ambil data 'c' dari menu 
  • nama = input("Masukkan nama untuk menghapus sub_data : ") kita akan menginput data yang nanti akan dihapus 
  • if nama in data.keys(): kita mengambil list 'nama' didalam 'data' menggunakan pengkondisian 
@@ -22,12 +31,20 @@ Ubah data
  • jika sudah maka cetak print("sub_data '{}' berhasil dihapus.".format(nama)) 
  • else:print("'{} tidak ditemukan.".format(nama)) jika data yang kita akan input salah/tidak ditemukan maka akan tercetak 'nama tidak ditemukan'
 
- Cari data 
+ Input:
+![Input3](foto/inputhapus.png)
+
+
+ ## Cari data 
  • elif menu.lower() == 'c': Ambil data 'c' dari menu 
  • nama = input("Masukkan nama untuk mencari data:") kita akan menginput data yang nanti akan dicari 
  • if nama in data.keys(): kita mengambil list 'nama' didalam 'data' menggunakan pengkondisian 
  • maka cetak print("Nama: {0}\nNIM : {1}\nNilai Tugas: {2}\nUTS: {3}\nUAS: {4}\nNilai akhir: {5}" untuk menampilkan data yang tersedia 
  • else:print("'{} tidak ditemukan.".format(nama)) jika data yang kita akan input salah/tidak ditemukan maka akan tercetak 'nama tidak ditemukan'
+
+ Input:
+![Input4](foto/inputcari.png)
+
  
  # Output
  Tambah data:
