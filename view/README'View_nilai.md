@@ -1,4 +1,4 @@
-# Cetak hasil pencarian
+## Cetak hasil pencarian
  • elif menu.lower() == 'c': Ambil data 'c' dari menu 
  • nama = input("Masukkan nama untuk mencari data:") kita akan menginput data yang nanti akan dicari 
  • if nama in data.keys(): kita mengambil list 'nama' didalam 'data' menggunakan pengkondisian 
@@ -9,7 +9,7 @@
  Output:
  ![output](foto1/cetakhasilpencarian.png)
 
- # Mencetak daftar nilai
+ ## Mencetak daftar nilai
   elif menu.lower() == 'l': Kita menggunakan kondisi percabangan if, ambil data dari menu lalu kita akan mengubah perintah 'l' yang kita input menjadi huruf kecil dengan fungsi lower()
 • lalu cetak print()
 Input:
