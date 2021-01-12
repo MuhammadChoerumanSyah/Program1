@@ -1,5 +1,7 @@
 # Program1
 ## UAS
+# Nama : Muhammad Choeruman Syah
+# Kelas : TI.20.A1
 
 ## Tambah data 
 • elif menu.lower() == 't': Ambil data 't' dari menu
@@ -8,7 +10,7 @@
     • data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir] kita akan masukkan data yang tadi kita input ke dalam 'data[nama]' • lalu cetak print()
 
 Input:
-![Input](foto/inputtambah.png)
+![Input](foto2/inputtambah1.png)
 
 ## Ubah data 
  • elif menu.lower() == 'u': Ambil data 'u' dari menu
@@ -22,8 +24,8 @@ Input:
  • else:print("'{}' tidak ditemukan.".format(nama)) jika kita salah dalam memasukkan nama untuk mengubah data maka akan muncul 'nama tidak ditemukan'
 
 Input:
-![Input1](foto/inputubah.png)
-![Input2](foto/inputubah1.png)
+![Input1](foto2/inputubah2.png)
+![Input2](foto2/inputubah3.png)
 
 
  ## Hapus data 
@@ -35,7 +37,7 @@ Input:
  • else:print("'{} tidak ditemukan.".format(nama)) jika data yang kita akan input salah/tidak ditemukan maka akan tercetak 'nama tidak ditemukan'
 
  Input:
-![Input3](foto/inputhapus.png)
+![Input3](foto2/inputhapus2.png)
 
 
  ## Cari data 
@@ -46,36 +48,33 @@ Input:
  • else:print("'{} tidak ditemukan.".format(nama)) jika data yang kita akan input salah/tidak ditemukan maka akan tercetak 'nama tidak ditemukan'
 
  Input:
-![Input4](foto/inputcari.png)
+![Input4](foto2/inputcari1.png)
 
  
  # Output
  Tambah data:
- ![output](foto/outputtambahdata.png)
+ ![output](foto2/outputtambahdata.png)
 
  Ubah data:
- ![output1](foto/outputubah.png)
+ ![output1](foto2/outputubah.png)
 
  Hapus data:
- ![output2](foto/outputhapus.png)
+ ![output2](foto2/outputhapus.png)
 
  Cari data:
- ![output3](foto/caridata.png)
+ ![output3](foto2/caridata.png)
 
  ## Mencetak daftar nilai
  if c.lower() == 'i':  Kita menggunakan kondisi percabangan if, ambil data dari menu lalu kita akan mengubah perintah 'i' yang kita input menjadi huruf kecil dengan fungsi lower()
 • lalu cetak print()
 Input:
-![input](foto1/inputdaftarnilai.png)
+![input](foto2/inputdaftarnilai.png)
 
  Output:
- ![output](foto1/inputnilai.png)
+ ![output](foto2/inputnilai.png)
  
 
-# Nama : Muhammad Choeruman Syah
-# Kelas : TI.20.A1
 
-![foto](foto/TUGASPRAKTIKUM.png)
 Pada tugas LAB 6, saya diminta untuk membuat sebuah program menambahkan data ke sebuah list dengan sistem library root yang nantinya akan seperti ini.
 # Berikut inputannya
 from data import data
@@ -194,14 +193,6 @@ print("Keluar")
 
 
 
-
-Output :
-![output](foto/output.png)
-
-Flowchart :
-![flowchart](flowchart/Doc1.docx)
-
-
 ## Cetak hasil pencarian
  • elif menu.lower() == 'c': Ambil data 'c' dari menu 
  • nama = input("Masukkan nama untuk mencari data:") kita akan menginput data yang nanti akan dicari 
@@ -209,14 +200,14 @@ Flowchart :
  • maka cetak print("Nama: {0}\nNIM : {1}\nNilai Tugas: {2}\nUTS: {3}\nUAS: {4}\nNilai akhir: {5}" untuk menampilkan data yang tersedia 
  • else:print("'{} tidak ditemukan.".format(nama)) jika data yang kita akan input salah/tidak ditemukan maka akan tercetak 'nama tidak ditemukan'
  Input:
- ![input](foto1/inputcetakhasil.png)
+ ![input](foto2/inputcetakhasil.png)
  Output:
- ![output](foto1/cetakhasilpencarian.png)
+ ![output](foto2/cetakhasilpencarian.png)
 
  ## Mencetak daftar nilai
   elif menu.lower() == 'l': Kita menggunakan kondisi percabangan if, ambil data dari menu lalu kita akan mengubah perintah 'l' yang kita input menjadi huruf kecil dengan fungsi lower()
 • lalu cetak print()
 Input:
-![input](foto1/inputcekdaftar.png)
+![input](foto2/inputcekdaftar.png)
 Output:
-![output1](foto1/cetakdaftarnilai.png)
+![output1](foto2/cetakdaftarnilai.png)
