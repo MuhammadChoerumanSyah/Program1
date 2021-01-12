@@ -1,4 +1,3 @@
-# pemograman10
 # Nama : Muhammad Choeruman Syah
 # Kelas : TI.20.A1
 
